@@ -38,7 +38,7 @@
   "dependencies": {
     "@sveltia/cms": "^0.73.1",
     "fluent-ffmpeg": "^2.1.2",
-    "@faircamp-cms/collections": "file:packages/collections",
+    "@faircamp-cms/config": "file:packages/config",
     "@faircamp-cms/tasks": "file:packages/tasks"
   }
 }

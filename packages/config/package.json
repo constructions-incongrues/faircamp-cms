@@ -4,6 +4,9 @@
   "description": "Configuration utilities and shared config for faircamp-cms.",
   "main": "index.js",
   "types": "index.d.ts",
-  "author": "",
-  "license": "MIT"
+  "author": "Constructions Incongrues",
+  "license": "MIT",
+  "dependencies": {
+    "@faircamp-cms/collections": "file:../collections"
+  }
 } 

@@ -8,12 +8,12 @@ importers:
 
   .:
     dependencies:
-      '@faircamp-cms/collections':
-        specifier: file:packages/collections
-        version: file:packages/collections(typescript@4.9.5)
-      '@faircamp-cms/scripts':
-        specifier: file:packages/scripts
-        version: file:packages/scripts
+      '@faircamp-cms/config':
+        specifier: file:packages/config
+        version: file:packages/config(typescript@4.9.5)
+      '@faircamp-cms/tasks':
+        specifier: file:packages/tasks
+        version: file:packages/tasks
       '@sveltia/cms':
         specifier: ^0.73.1
         version: 0.73.1
@@ -200,8 +200,11 @@ packages:
   '@faircamp-cms/collections@file:packages/collections':
     resolution: {directory: packages/collections, type: directory}
 
-  '@faircamp-cms/scripts@file:packages/scripts':
-    resolution: {directory: packages/scripts, type: directory}
+  '@faircamp-cms/config@file:packages/config':
+    resolution: {directory: packages/config, type: directory}
+
+  '@faircamp-cms/tasks@file:packages/tasks':
+    resolution: {directory: packages/tasks, type: directory}
 
   '@google-automations/git-file-utils@3.0.0':
     resolution: {integrity: sha512-e+WLoKR0TchIhKsSDOnd/su171eXKAAdLpP2tS825UAloTgfYus53kW8uKoVj9MAsMjXGXsJ2s1ASgjq81xVdA==}
@@ -1317,7 +1320,13 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  '@faircamp-cms/scripts@file:packages/scripts': {}
+  '@faircamp-cms/config@file:packages/config(typescript@4.9.5)':
+    dependencies:
+      '@faircamp-cms/collections': file:packages/collections(typescript@4.9.5)
+    transitivePeerDependencies:
+      - typescript
+
+  '@faircamp-cms/tasks@file:packages/tasks': {}
 
   '@google-automations/git-file-utils@3.0.0':
     dependencies:

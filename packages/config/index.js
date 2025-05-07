@@ -1,9 +1,26 @@
 // Shared configuration for faircamp-cms
+import { Catalog, Artist, Release, Track } from '@faircamp-cms/collections';
 
-const config = {
-  mediaFolder: 'static/media/uploads',
-  publicFolder: '/media/uploads',
+const defaultConfig = {
+  media_folder: 'static/media/uploads',
+  public_folder: '/media/uploads',
   locale: 'en',
+  load_config_file: false,
+  backend: {
+    name: 'github',
+    repo: 'faircamp/faircamp-cms',
+    branch: 'main',
+  },
+  collections: [
+    Catalog(),
+    Artist(),
+    Release(),
+    Track(),
+  ]
 };
 
-module.exports = config; 
+function getConfig(overrides = {}) {
+  return { ...defaultConfig, ...overrides };
+}
+
+module.exports = { getConfig }; 
