@@ -39,6 +39,6 @@
     "@sveltia/cms": "^0.73.1",
     "fluent-ffmpeg": "^2.1.2",
     "@faircamp-cms/collections": "file:packages/collections",
-    "@faircamp-cms/scripts": "file:packages/scripts"
+    "@faircamp-cms/tasks": "file:packages/tasks"
   }
 }
