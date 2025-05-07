@@ -1,9 +1,12 @@
 {
   "packages": {
     ".": {
-      "bump-minor-pre-major": true,
+      "changelog-path": "CHANGELOG.md",
+      "release-type": "node",
+      "bump-minor-pre-major": false,
       "bump-patch-for-minor-pre-major": false,
-      "release-type": "node"
+      "draft": false,
+      "prerelease": false
     },
     "./packages/collections": {
       "bump-minor-pre-major": true,
