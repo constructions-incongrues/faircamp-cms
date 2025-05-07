@@ -32,7 +32,7 @@ jobs:
       - name: Build Packages
         if: ${{ steps.release.outputs.releases_created }}
         run: |
-          pnpm install
+          npm install
           npx lerna bootstrap
 
       # Release Please has already incremented versions and published tags, so we just
