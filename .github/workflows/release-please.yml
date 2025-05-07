@@ -15,11 +15,8 @@ jobs:
       - uses: googleapis/release-please-action@v4
         id: release
         with:
-          command: manifest
           token: ${{secrets.RELEASE_PLEASE_TOKEN}}
-          default-branch: main
-
-      # The logic below handles the npm publication:
+          target-branch: main
       - name: Checkout Repository
         if: ${{ steps.release.outputs.releases_created }}
         uses: actions/checkout@v2
@@ -33,7 +30,7 @@ jobs:
         if: ${{ steps.release.outputs.releases_created }}
         run: |
           npm install -g pnpm
-          pnpm build
+          pnpm install
       # Release Please has already incremented versions and published tags, so we just
       # need to publish all unpublished versions to NPM here
       # See: https://github.com/lerna/lerna/tree/main/commands/publish#bump-from-package
