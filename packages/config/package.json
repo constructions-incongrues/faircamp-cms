@@ -2,7 +2,7 @@
   "name": "@constructions-incongrues/faircamp-cms-config",
   "version": "0.2.0",
   "description": "Configuration utilities and shared config for faircamp-cms.",
-  "main": "index.js",
+  "main": "index.mjs",
   "type": "module",
   "types": "index.d.ts",
   "author": "constructions-incongrues",
