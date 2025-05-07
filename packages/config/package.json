@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "types": "index.d.ts",
-  "author": "Constructions Incongrues",
+  "author": "constructions-incongrues",
   "license": "MIT",
   "dependencies": {
     "@faircamp-cms/collections": "file:../collections"
