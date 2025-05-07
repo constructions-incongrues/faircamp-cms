@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/constructions-incongrues/faircamp-cms/compare/faircamp-cms-config@v0.3.0...faircamp-cms-config@v0.4.0) (2025-05-07)
+
+
+### Features
+
+* update GitHub Actions workflow and enhance config management ([18248c9](https://github.com/constructions-incongrues/faircamp-cms/commit/18248c9278d5bf369ce2cc4ac24a68c0f79bda4d))
+
 ## [0.3.0](https://github.com/constructions-incongrues/faircamp-cms/compare/faircamp-cms-config@v0.2.0...faircamp-cms-config@v0.3.0) (2025-05-07)
 
 
