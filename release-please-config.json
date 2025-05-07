@@ -10,7 +10,7 @@
       "bump-patch-for-minor-pre-major": false,
       "release-type": "node"
     },
-    "packages/scripts": {
+    "packages/tasks": {
       "bump-minor-pre-major": true,
       "bump-patch-for-minor-pre-major": false,
       "release-type": "node"

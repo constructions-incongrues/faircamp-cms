@@ -1,5 +1,5 @@
 {
-  "name": "@faircamp-cms/scripts",
+  "name": "@faircamp-cms/tasks",
   "version": "0.1.0",
   "description": "Utility scripts for Faircamp CMS",
   "main": "index.js",
