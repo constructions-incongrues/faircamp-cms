@@ -8,5 +8,8 @@
   "dependencies": {
     "fluent-ffmpeg": "^2.1.2"
   },
-  "gitHead": "1c8dc97bbcb24955c5c2aed7f8d99fb1a77d45f9"
+  "gitHead": "1c8dc97bbcb24955c5c2aed7f8d99fb1a77d45f9",
+  "publishConfig": {
+    "access": "public"
+  }
 }
