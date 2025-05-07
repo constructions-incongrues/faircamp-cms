@@ -19,8 +19,15 @@ const defaultConfig = {
   ]
 };
 
-export function getConfig(overrides = {}) {
+let getConfig = function (overrides = {}) {
   return { ...defaultConfig, ...overrides };
+};
+
+export function setConfigProvider(fn) {
+  if (typeof fn === 'function') {
+    getConfig = fn;
+  }
 }
 
+export { getConfig };
 export default getConfig;
