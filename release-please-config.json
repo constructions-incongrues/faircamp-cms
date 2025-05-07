@@ -5,12 +5,12 @@
       "bump-patch-for-minor-pre-major": false,
       "release-type": "node"
     },
-    "./packages/collections": {
+    "packages/collections": {
       "bump-minor-pre-major": true,
       "bump-patch-for-minor-pre-major": false,
       "release-type": "node"
     },
-    "./packages/scripts": {
+    "packages/scripts": {
       "bump-minor-pre-major": true,
       "bump-patch-for-minor-pre-major": false,
       "release-type": "node"
