@@ -18,14 +18,14 @@ pnpm install -g ./packages/tasks
 
 ## CLI Scripts
 
-### 1. `faircamp-import-release`
+### 1. `faircamp:release:import`
 
 Import a folder of audio and image files as a new release in your Faircamp CMS content structure.
 
 **Usage:**
 
 ```sh
-faircamp-import-release <folder-path> <catalog-slug> [release-title] [release-date] [--content-dir=<path>]
+faircamp:release:import <folder-path> <catalog-slug> [release-title] [release-date] [--content-dir=<path>]
 ```
 
 - `<folder-path>`: Path to the folder containing audio/image files
@@ -37,19 +37,19 @@ faircamp-import-release <folder-path> <catalog-slug> [release-title] [release-da
 **Example:**
 
 ```sh
-faircamp-import-release ./my-album electron-echo "My Album Title" 2024-06-01 --content-dir=var/repo/content
+faircamp:release:import ./my-album electron-echo "My Album Title" 2024-06-01 --content-dir=var/repo/content
 ```
 
 ---
 
-### 2. `faircamp-set-track-metadata`
+### 2. `faircamp:track:update-metadata`
 
 Batch-update audio file metadata for all tracks in all releases, using the information in each `release.json`.
 
 **Usage:**
 
 ```sh
-faircamp-set-track-metadata [--content-dir=<path>]
+faircamp:track:update-metadata [--content-dir=<path>]
 ```
 
 - `--content-dir`: Content directory (default: `var/repo/content`)
@@ -57,19 +57,19 @@ faircamp-set-track-metadata [--content-dir=<path>]
 **Example:**
 
 ```sh
-faircamp-set-track-metadata --content-dir=var/repo/content
+faircamp:track:update-metadata --content-dir=var/repo/content
 ```
 
 ---
 
-### 3. `faircamp-json2eno`
+### 3. `faircamp:json:convert-to-eno`
 
 Convert JSON files (or directories of JSON files) to [Eno](https://eno-lang.org/) format.
 
 **Usage:**
 
 ```sh
-faircamp-json2eno [options] <path>
+faircamp:json:convert-to-eno [options] <path>
 ```
 
 **Options:**
@@ -85,7 +85,7 @@ faircamp-json2eno [options] <path>
 **Example:**
 
 ```sh
-faircamp-json2eno ./releases --output ./eno-releases --pattern release --verbose
+faircamp:json:convert-to-eno ./releases --output ./eno-releases --pattern release --verbose
 ```
 
 ---

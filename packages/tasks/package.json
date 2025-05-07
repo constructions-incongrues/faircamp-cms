@@ -6,12 +6,13 @@
   "author": "constructions-incongrues",
   "license": "ISC",
   "dependencies": {
-    "fluent-ffmpeg": "^2.1.2"
+    "fluent-ffmpeg": "^2.1.2",
+    "tasuku": "^2.0.1"
   },
   "bin": {
-    "faircamp-import-release": "./faircamp-import-release.js",
-    "faircamp-set-track-metadata": "./faircamp-set-track-metadata.js",
-    "faircamp-json2eno": "./faircamp-json2eno.js"
+    "faircamp:release:import": "./faircamp/release/import.js",
+    "faircamp:track:update-metadata": "./faircamp/track/update-metadata.js",
+    "faircamp:json:convert-to-eno": "./faircamp/json/convert-to-eno.js"
   },
   "gitHead": "1c8dc97bbcb24955c5c2aed7f8d99fb1a77d45f9",
   "publishConfig": {
