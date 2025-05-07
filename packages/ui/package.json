@@ -1,15 +1,25 @@
 {
   "name": "@constructions-incongrues/faircamp-cms-ui",
   "version": "0.1.0",
-  "main": "index.js",
+  "main": "vite.config.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build",
+    "dev": "vite",
+    "serve": "http-server dist"
   },
   "keywords": [],
   "author": "constructions-incongrues",
   "license": "MIT",
   "description": "",
   "dependencies": {
-    "@sveltia/cms": "^0.73.1"
-  }
+    "@sveltia/cms": "^0.73.1",
+    "@constructions-incongrues/faircamp-cms-config": "^0.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-basic-ssl": "^2.0.0",
+    "http-server": "^14.1.1",
+    "vite": "^6.3.5"
+  }  
 }

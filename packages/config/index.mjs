@@ -22,3 +22,5 @@ const defaultConfig = {
 export function getConfig(overrides = {}) {
   return { ...defaultConfig, ...overrides };
 }
+
+export default getConfig;

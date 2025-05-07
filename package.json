@@ -4,10 +4,6 @@
   "description": "Content Management System for Faircamp",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "cms:build": "vite build --outDir ./dist/admin",
-    "preview": "vite preview",
-    "serve": "http-server dist",
     "lint": "eslint .",
     "format": "prettier --write .",
     "import:release": "node src/scripts/import-release.js",
@@ -29,15 +25,8 @@
     "node": ">=18.0.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-basic-ssl": "^2.0.0",
-    "http-server": "^14.1.1",
-    "vite": "^6.3.5",
     "release-please": "^17.0.0"
   },
-  "dependencies": {
-    "@constructions-incongrues/faircamp-cms-ui": "^0.1.0"
-  },
-  "main": "vite.config.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/constructions-incongrues/faircamp-cms.git"
