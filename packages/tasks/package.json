@@ -8,6 +8,5 @@
   "dependencies": {
     "fluent-ffmpeg": "^2.1.2"
   },
-  "private": false,
-  "gitHead": "c40774167058d1fa34c064b9613a60396c776f28"
+  "gitHead": "0f33da516ae213f2593345304a9d76b5087a0416"
 }
