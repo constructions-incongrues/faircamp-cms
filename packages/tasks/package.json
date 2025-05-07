@@ -7,5 +7,7 @@
   "license": "ISC",
   "dependencies": {
     "fluent-ffmpeg": "^2.1.2"
-  }
-} 
+  },
+  "private": false,
+  "gitHead": "c40774167058d1fa34c064b9613a60396c776f28"
+}
