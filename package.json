@@ -2,7 +2,6 @@
   "name": "faircamp-cms",
   "version": "0.1.0",
   "description": "Content Management System for Faircamp",
-  "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -36,7 +35,15 @@
     "release-please": "^17.0.0"
   },
   "dependencies": {
-    "@sveltia/cms": "^0.73.1",
-    "@constructions-incongrues/faircamp-cms-config": "^0.1.0"
-  }
+    "@constructions-incongrues/faircamp-cms-ui": "^0.1.0"
+  },
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/constructions-incongrues/faircamp-cms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/constructions-incongrues/faircamp-cms/issues"
+  },
+  "homepage": "https://github.com/constructions-incongrues/faircamp-cms#readme"
 }

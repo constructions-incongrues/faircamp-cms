@@ -8,12 +8,9 @@ importers:
 
   .:
     dependencies:
-      '@constructions-incongrues/faircamp-cms-config':
+      '@constructions-incongrues/faircamp-cms-ui':
         specifier: ^0.1.0
-        version: 0.1.0(typescript@4.9.5)
-      '@sveltia/cms':
-        specifier: ^0.73.1
-        version: 0.73.1
+        version: 0.1.0
     devDependencies:
       '@vitejs/plugin-basic-ssl':
         specifier: ^2.0.0
@@ -38,11 +35,8 @@ packages:
     resolution: {integrity: sha512-D2hP9eA+Sqx1kBZgzxZh0y1trbuU+JoDkiEwqhQ36nodYqJwyEIhPSdMNd7lOm/4io72luTPWH20Yda0xOuUow==}
     engines: {node: '>=6.9.0'}
 
-  '@constructions-incongrues/faircamp-cms-collections@0.1.0':
-    resolution: {integrity: sha512-BluObaE5Ygro3uv10T6I9m+LZjWJxZqcQtcrth5Nwj3vHwmrbyQfOn3+PX/h+UvrQc5ftnd9hrFC9RpSR7qz0A==}
-
-  '@constructions-incongrues/faircamp-cms-config@0.1.0':
-    resolution: {integrity: sha512-UtWbStHIT4AEccwrzpgtcLq5ktOVuEUkmmbAJtwC+WgLrxNRr7FJxFvSxHnzDSb/12kfPWK+drQwVfQEXDGoeA==}
+  '@constructions-incongrues/faircamp-cms-ui@0.1.0':
+    resolution: {integrity: sha512-Ela1+d5jxGTzvCaNzhy2XLYU5fDlDaIhhwswNZZyjlUM/H5XCpR7n3vqpjLI6n70wC9+vWhJV1NFLDt4JTSWkQ==}
 
   '@conventional-commits/parser@0.4.1':
     resolution: {integrity: sha512-H2ZmUVt6q+KBccXfMBhbBF14NlANeqHTXL4qCL6QGbMzrc4HDXyzWuxPxPNbz71f/5UkR5DrycP5VO9u7crahg==}
@@ -791,9 +785,6 @@ packages:
   lodash.ismatch@4.4.0:
     resolution: {integrity: sha512-fPMfXjGQEV9Xsq/8MTSgUf255gawYRbjwMyDbcvDhXgV7enSZA0hynz6vMPnpAb5iONEzBHBPsT+0zes5Z301g==}
 
-  lodash.merge@4.6.2:
-    resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
-
   lru-cache@6.0.0:
     resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
     engines: {node: '>=10'}
@@ -1058,14 +1049,6 @@ packages:
     resolution: {integrity: sha512-c1PTsA3tYrIsLGkJkzHF+w9F2EyxfXGo4UyJc4pFL++FMjnq0HJS69T3M7d//gKrFKwy429bouPescbjecU+Zw==}
     engines: {node: '>=8'}
 
-  ts-essentials@9.4.2:
-    resolution: {integrity: sha512-mB/cDhOvD7pg3YCLk2rOtejHjjdSi9in/IBYE13S+8WA5FBSraYf4V/ws55uvs0IvQ/l0wBOlXy5yBNZ9Bl8ZQ==}
-    peerDependencies:
-      typescript: '>=4.1.0'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
-
   type-fest@0.18.1:
     resolution: {integrity: sha512-OIAYXk8+ISY+qTOwkHtKqzAuxchoMiD9Udx+FSGQDuiRR+PJKJHc2NJAXlbhkGwTt/4/nKZxELY1w3ReWOL8mw==}
     engines: {node: '>=10'}
@@ -1210,18 +1193,9 @@ snapshots:
 
   '@babel/helper-validator-identifier@7.27.1': {}
 
-  '@constructions-incongrues/faircamp-cms-collections@0.1.0(typescript@4.9.5)':
+  '@constructions-incongrues/faircamp-cms-ui@0.1.0':
     dependencies:
-      lodash.merge: 4.6.2
-      ts-essentials: 9.4.2(typescript@4.9.5)
-    transitivePeerDependencies:
-      - typescript
-
-  '@constructions-incongrues/faircamp-cms-config@0.1.0(typescript@4.9.5)':
-    dependencies:
-      '@constructions-incongrues/faircamp-cms-collections': 0.1.0(typescript@4.9.5)
-    transitivePeerDependencies:
-      - typescript
+      '@sveltia/cms': 0.73.1
 
   '@conventional-commits/parser@0.4.1':
     dependencies:
@@ -1871,8 +1845,6 @@ snapshots:
 
   lodash.ismatch@4.4.0: {}
 
-  lodash.merge@4.6.2: {}
-
   lru-cache@6.0.0:
     dependencies:
       yallist: 4.0.0
@@ -2186,10 +2158,6 @@ snapshots:
       picomatch: 4.0.2
 
   trim-newlines@3.0.1: {}
-
-  ts-essentials@9.4.2(typescript@4.9.5):
-    optionalDependencies:
-      typescript: 4.9.5
 
   type-fest@0.18.1: {}
 
