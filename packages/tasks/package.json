@@ -8,6 +8,11 @@
   "dependencies": {
     "fluent-ffmpeg": "^2.1.2"
   },
+  "bin": {
+    "faircamp-import-release": "./faircamp-import-release.js",
+    "faircamp-set-track-metadata": "./faircamp-set-track-metadata.js",
+    "faircamp-json2eno": "./faircamp-json2eno.js"
+  },
   "gitHead": "1c8dc97bbcb24955c5c2aed7f8d99fb1a77d45f9",
   "publishConfig": {
     "access": "public"
