@@ -10,11 +10,6 @@
       "bump-patch-for-minor-pre-major": false,
       "release-type": "node"
     },
-    "./packages/ui": {
-      "bump-minor-pre-major": true,
-      "bump-patch-for-minor-pre-major": false,
-      "release-type": "node"
-    },
     "./packages/scripts": {
       "bump-minor-pre-major": true,
       "bump-patch-for-minor-pre-major": false,
