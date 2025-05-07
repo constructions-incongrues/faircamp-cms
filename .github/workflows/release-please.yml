@@ -32,7 +32,7 @@ jobs:
       - name: Build Packages
         if: ${{ steps.release.outputs.releases_created }}
         run: |
-          npx pnpm add -g pnpm
+          npm install -g pnpm
           pnpm build
       # Release Please has already incremented versions and published tags, so we just
       # need to publish all unpublished versions to NPM here
