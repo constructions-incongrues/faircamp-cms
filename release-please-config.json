@@ -1,18 +1,17 @@
 {
+  "bump-minor-pre-major": true,
+  "bump-patch-for-minor-pre-major": false,
   "packages": {
     "": {
-      "bump-minor-pre-major": true,
-      "bump-patch-for-minor-pre-major": false,
       "release-type": "node"
     },
     "packages/collections": {
-      "bump-minor-pre-major": true,
-      "bump-patch-for-minor-pre-major": false,
+      "release-type": "node"
+    },
+    "packages/config": {
       "release-type": "node"
     },
     "packages/tasks": {
-      "bump-minor-pre-major": true,
-      "bump-patch-for-minor-pre-major": false,
       "release-type": "node"
     }
   },
