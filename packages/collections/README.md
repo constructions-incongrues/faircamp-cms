@@ -1,11 +1,11 @@
-# @faircamp-cms/collections
+# @constructions-incongrues/faircamp-cms-collections
 
 This package contains all Faircamp CMS collection schemas: Catalog, Artist, Release, and Track.
 
 ## Usage
 
 ```js
-const { Catalog, Artist, Release, Track } = require('@faircamp-cms/collections');
+const { Catalog, Artist, Release, Track } = require('@constructions-incongrues/faircamp-cms-collections');
 
 // Get the default schema
 const catalog = Catalog();
@@ -19,7 +19,7 @@ const customCatalog = Catalog({ label: 'My Custom Catalog', fields: [/* ... */] 
 Type definitions are included:
 
 ```ts
-import { Catalog, CollectionSchema } from '@faircamp-cms/collections';
+import { Catalog, CollectionSchema } from '@constructions-incongrues/faircamp-cms-collections';
 const schema: CollectionSchema = Catalog();
 ```
 
