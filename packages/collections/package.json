@@ -1,6 +1,6 @@
 {
   "name": "@faircamp-cms/collections",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "main": "index.js",
   "types": "index.d.ts",
   "description": "Faircamp CMS all collection schemas (catalog, artist, release, track)",
@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "lodash.merge": "^4.6.2",
-    "ts-essentials": "^9.3.0"
+    "ts-essentials": "^9.4.2"
   },
   "devDependencies": {
     "jest": "^29.7.0"
