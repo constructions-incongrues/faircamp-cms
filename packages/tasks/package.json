@@ -1,8 +1,11 @@
 {
-  "name": "@faircamp-cms/tasks",
+  "name": "@constructions-incongrues/faircamp-cms-tasks",
   "version": "0.1.0",
-  "description": "Utility scripts for Faircamp CMS",
+  "description": "Collection of utility scripts and tasks for managing Faircamp CMS",
   "main": "index.js",
   "author": "constructions-incongrues",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2"
+  }
 } 

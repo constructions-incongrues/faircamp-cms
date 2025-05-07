@@ -1,5 +1,5 @@
 {
-  "name": "@faircamp-cms/config",
+  "name": "@constructions-incongrues/faircamp-cms-config",
   "version": "0.1.0",
   "description": "Configuration utilities and shared config for faircamp-cms.",
   "main": "index.js",
@@ -8,6 +8,6 @@
   "author": "constructions-incongrues",
   "license": "MIT",
   "dependencies": {
-    "@constructions-incongrues/faircamp-cms-collections": "file:../collections"
+    "@constructions-incongrues/faircamp-cms-collections": "^0.1.0"
   }
 } 
