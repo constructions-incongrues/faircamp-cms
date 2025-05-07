@@ -19,8 +19,6 @@ const defaultConfig = {
   ]
 };
 
-function getConfig(overrides = {}) {
+export function getConfig(overrides = {}) {
   return { ...defaultConfig, ...overrides };
 }
-
-module.exports = { getConfig }; 

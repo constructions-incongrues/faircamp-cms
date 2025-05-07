@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Configuration utilities and shared config for faircamp-cms.",
   "main": "index.js",
+  "type": "module",
   "types": "index.d.ts",
   "author": "Constructions Incongrues",
   "license": "MIT",
