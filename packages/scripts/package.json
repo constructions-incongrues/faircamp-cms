@@ -1,0 +1,8 @@
+{
+  "name": "@faircamp-cms/scripts",
+  "version": "0.1.0",
+  "description": "Utility scripts for Faircamp CMS",
+  "main": "index.js",
+  "author": "Constructions Incongrues",
+  "license": "ISC"
+} 

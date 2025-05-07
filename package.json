@@ -1,0 +1,45 @@
+{
+  "name": "faircamp-cms",
+  "version": "0.1.0",
+  "description": "Content Management System for Faircamp",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "cms:build": "vite build --outDir ./dist/admin",
+    "preview": "vite preview",
+    "serve": "http-server dist",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "import:release": "node src/scripts/import-release.js",
+    "content:eno": "node src/scripts/json2eno.js --ignore-empty --use-flags --skip-fields catalog,tracks --force-multiline more,synopsis,payment_info,unlock_info $npm_config_catalog-dir",
+    "content:metadata": "node src/scripts/set_release_track_metadata.js --content-dir $npm_config_catalog-dir",
+    "faircamp:build": "faircamp --build-dir ./dist",
+    "faircamp:preview": "faircamp --preview",
+    "release-please": "release-please"
+  },
+  "keywords": [
+    "cms",
+    "content-management",
+    "faircamp"
+  ],
+  "author": "Constructions Incongrues",
+  "license": "ISC",
+  "packageManager": "pnpm@10.10.0",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-basic-ssl": "^2.0.0",
+    "http-server": "^14.1.1",
+    "vite": "^6.3.5",
+    "release-please": "^17.0.0"
+  },
+  "dependencies": {
+    "@sveltia/cms": "^0.73.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "@faircamp-cms/collections": "file:packages/collections",
+    "@faircamp-cms/ui": "file:packages/ui",
+    "@faircamp-cms/scripts": "file:packages/scripts"
+  }
+}
