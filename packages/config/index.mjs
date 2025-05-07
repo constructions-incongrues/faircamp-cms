@@ -1,5 +1,5 @@
 // Shared configuration for faircamp-cms
-import { Catalog, Artist, Release, Track } from '@faircamp-cms/collections';
+import { Catalog, Artist, Release, Track } from '@constructions-incongrues/faircamp-cms-collections';
 
 const defaultConfig = {
   media_folder: 'static/media/uploads',

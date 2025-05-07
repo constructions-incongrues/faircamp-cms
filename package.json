@@ -23,7 +23,7 @@
     "content-management",
     "faircamp"
   ],
-  "author": "Constructions Incongrues",
+  "author": "constructions-incongrues",
   "license": "ISC",
   "packageManager": "pnpm@10.10.0",
   "engines": {

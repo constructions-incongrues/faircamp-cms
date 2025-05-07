@@ -8,6 +8,6 @@
   "author": "constructions-incongrues",
   "license": "MIT",
   "dependencies": {
-    "@faircamp-cms/collections": "file:../collections"
+    "@constructions-incongrues/faircamp-cms-collections": "file:../collections"
   }
 } 
