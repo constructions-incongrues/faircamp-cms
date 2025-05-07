@@ -25,6 +25,7 @@
     "node": ">=18.0.0"
   },
   "devDependencies": {
+    "lerna": "^8.2.2",
     "release-please": "^17.0.0"
   },
   "repository": {
@@ -34,5 +35,6 @@
   "bugs": {
     "url": "https://github.com/constructions-incongrues/faircamp-cms/issues"
   },
-  "homepage": "https://github.com/constructions-incongrues/faircamp-cms#readme"
+  "homepage": "https://github.com/constructions-incongrues/faircamp-cms#readme",
+  "dependencies": {}
 }
