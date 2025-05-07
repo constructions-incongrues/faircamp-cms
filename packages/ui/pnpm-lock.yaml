@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@constructions-incongrues/faircamp-cms-config':
-        specifier: ^0.1.0
-        version: 0.1.0
+        specifier: ^0.3.0
+        version: 0.3.0
       '@sveltia/cms':
         specifier: ^0.73.1
         version: 0.73.1
@@ -30,8 +30,8 @@ packages:
   '@constructions-incongrues/faircamp-cms-collections@0.1.0':
     resolution: {integrity: sha512-BluObaE5Ygro3uv10T6I9m+LZjWJxZqcQtcrth5Nwj3vHwmrbyQfOn3+PX/h+UvrQc5ftnd9hrFC9RpSR7qz0A==}
 
-  '@constructions-incongrues/faircamp-cms-config@0.1.0':
-    resolution: {integrity: sha512-UtWbStHIT4AEccwrzpgtcLq5ktOVuEUkmmbAJtwC+WgLrxNRr7FJxFvSxHnzDSb/12kfPWK+drQwVfQEXDGoeA==}
+  '@constructions-incongrues/faircamp-cms-config@0.3.0':
+    resolution: {integrity: sha512-eDOkIqvymhDtUhuwwERCJLvFZEjwhIUGnd2KtbJ3cS9Hhu6lJAS3nIkZLLsBy3ZqmD9FvGBYFXOu7aY85RUWjQ==}
 
   '@esbuild/aix-ppc64@0.25.4':
     resolution: {integrity: sha512-1VCICWypeQKhVbE9oW/sJaAmjLxhVqacdkvPLEjwlttjfwENRSClS8EjBz0KzRyFSCPDIkuXW34Je/vk7zdB7Q==}
@@ -595,7 +595,7 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  '@constructions-incongrues/faircamp-cms-config@0.1.0':
+  '@constructions-incongrues/faircamp-cms-config@0.3.0':
     dependencies:
       '@constructions-incongrues/faircamp-cms-collections': 0.1.0
     transitivePeerDependencies:

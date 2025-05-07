@@ -14,12 +14,12 @@
   "license": "MIT",
   "description": "",
   "dependencies": {
-    "@sveltia/cms": "^0.73.1",
-    "@constructions-incongrues/faircamp-cms-config": "^0.1.0"
+    "@constructions-incongrues/faircamp-cms-config": "^0.3.0",
+    "@sveltia/cms": "^0.73.1"
   },
   "devDependencies": {
     "@vitejs/plugin-basic-ssl": "^2.0.0",
     "http-server": "^14.1.1",
     "vite": "^6.3.5"
-  }  
+  }
 }
