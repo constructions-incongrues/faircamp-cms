@@ -4,6 +4,9 @@
   "description": "Content Management System for Faircamp",
   "type": "module",
   "scripts": {
+    "build": "vite build ./packages/ui",
+    "dev": "vite",
+    "serve": "http-server dist",
     "lint": "eslint .",
     "format": "prettier --write .",
     "import:release": "node src/scripts/import-release.js",
@@ -26,7 +29,10 @@
   },
   "devDependencies": {
     "lerna": "^8.2.2",
-    "release-please": "^17.0.0"
+    "release-please": "^17.0.0",
+    "@vitejs/plugin-basic-ssl": "^2.0.0",
+    "http-server": "^14.1.1",
+    "vite": "^6.3.5"
   },
   "repository": {
     "type": "git",
