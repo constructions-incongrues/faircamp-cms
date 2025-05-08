@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.1](https://github.com/constructions-incongrues/faircamp-cms/compare/faircamp-cms-config@v0.4.0...faircamp-cms-config@v0.4.1) (2025-05-08)
+
+
+### Bug Fixes
+
+* update repository name in configuration from faircamp-cms to faircamp-cms-starter ([6b443d4](https://github.com/constructions-incongrues/faircamp-cms/commit/6b443d45cbdb9bc8c373a2db89b60b0e9d8d5e0f))
+
 ## [0.4.0](https://github.com/constructions-incongrues/faircamp-cms/compare/faircamp-cms-config@v0.3.0...faircamp-cms-config@v0.4.0) (2025-05-07)
 
 
