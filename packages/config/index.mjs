@@ -8,7 +8,7 @@ const defaultConfig = {
   load_config_file: false,
   backend: {
     name: 'github',
-    repo: 'faircamp/faircamp-cms',
+    repo: 'faircamp/faircamp-cms-starter',
     branch: 'main',
   },
   collections: [
