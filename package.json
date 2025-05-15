@@ -4,7 +4,6 @@
   "description": "Content Management System for Faircamp",
   "type": "module",
   "scripts": {
-    "build": "vite build ./packages/ui",
     "dev": "vite",
     "serve": "http-server dist",
     "lint": "eslint .",
