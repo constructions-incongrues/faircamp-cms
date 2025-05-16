@@ -1,0 +1,41 @@
+{
+    "name": "@constructions-incongrues/tumultes-faircamp",
+    "version": "0.1.0",
+    "description": "Comprehensive toolkit for Faircamp CMS - schemas, configuration, and content management utilities",
+    "main": "src/index.js",
+    "type": "module",
+    "author": "constructions-incongrues",
+    "license": "MIT",
+    "bin": {
+      "faircamp-release-import": "./bin/faircamp-release-import.js",
+      "faircamp-track-update-metadata": "./bin/faircamp-track-update-metadata.js",
+      "faircamp-json-convert-to-eno": "./bin/faircamp-json-convert-to-eno.js"
+    },
+    "scripts": {
+      "test": "jest"
+    },
+    "dependencies": {
+      "fluent-ffmpeg": "^2.1.2",
+      "lodash.merge": "^4.6.2",
+      "tasuku": "^2.0.1",
+      "yargs": "^17.7.2"
+    },
+    "devDependencies": {
+      "jest": "^29.7.0"
+    },
+    "keywords": [
+      "faircamp",
+      "cms",
+      "content management",
+      "netlify cms",
+      "music",
+      "bandcamp alternative"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/faircamp/faircamp-cms-starter"
+    },
+    "engines": {
+      "node": ">=14.16"
+    }
+  }
