@@ -5,13 +5,7 @@
   "bump-minor-pre-major": true,
   "bump-patch-for-minor-pre-major": false,
   "packages": {
-    "packages/collections": {
-      "release-type": "node"
-    },
-    "packages/config": {
-      "release-type": "node"
-    },
-    "packages/tasks": {
+    "packages/faircamp": {
       "release-type": "node"
     }
   },
